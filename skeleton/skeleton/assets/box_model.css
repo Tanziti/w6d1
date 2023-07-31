@@ -4,6 +4,13 @@ body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  width: 900px;
+  margin: 0 auto;
+}
+nav > ul > li {
+  display: inline-block;
+  background-color: yellow;
+  padding: 20px;
 }
 
 h1 {
@@ -12,6 +19,15 @@ h1 {
 
 h2 {
   font-size: 32px;
+}
+aside {
+  display: flex;
+  justify-content: space-between;
+}
+/* section {
+  display: flex;
+  justify-content: space-evenly;
+} */
 }
 
 /* This selector selects ALL anchor tag children of ALL list elements that
