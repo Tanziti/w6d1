@@ -21,14 +21,13 @@ h2 {
   font-size: 32px;
 }
 aside {
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
 }
 /* section {
   display: flex;
   justify-content: space-evenly;
 } */
-}
+
 
 /* This selector selects ALL anchor tag children of ALL list elements that
 are children of an Unordered Lsit element */
